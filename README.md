@@ -9,9 +9,13 @@
 6. Use "dbconform" (https://github.com/brian-pond/dbconform) instead of `SQLModel.metadata.create_all()`
    
 ## Frontend
-1. For most use cases, prefer frameworks like AHA stack (Astro, HTMX, Alpine.js) or Svelte.
-2. Tabulator is my favorte UI tool for data grids and list pages.
-
+1. When recommending new stacks, there are my preferences from Simple to Complex.  Different apps will have different complexity based on requirements.
+    * Plain HTML/CSS/JS with Jinja2
+    * AHA stack (Astro, HTMX, Alpine.js)
+    * Svelte
+    * Vue
+    * React
+2. Tabulator is my favorite UI tool for data grids and list pages.
 
 ## Tabulator Nuances
 
